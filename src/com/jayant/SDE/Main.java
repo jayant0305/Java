@@ -1,6 +1,4 @@
-package com.jayant;
-
-import java.util.Arrays;
+package com.jayant.SDE;
 
 public class Main {
 
@@ -46,7 +44,12 @@ public class Main {
 
 
     //Sort
-        SortZerosOnesTwos obj= new SortZerosOnesTwos();
-        System.out.println(Arrays.toString(obj.optimalForceSolution()));
+//        SortZerosOnesTwos obj= new SortZerosOnesTwos();
+//        System.out.println(Arrays.toString(obj.optimalForceSolution()));
+
+    //STOCK BUY AND SELL
+    StockBuyandSell_I buyandSellIObject=new StockBuyandSell_I();
+    System.out.println(buyandSellIObject.optimalSolution());
+
     }
 }

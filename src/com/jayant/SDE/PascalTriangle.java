@@ -1,4 +1,4 @@
-package com.jayant;
+package com.jayant.SDE;
 
 import java.util.ArrayList;
 import java.util.Arrays;
