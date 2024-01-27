@@ -35,8 +35,18 @@ public class Main {
 
 
     //NEXT PERMUTATION
-        NextPermutation nextPermutation=new NextPermutation();
-        int[] outputArray=nextPermutation.bruteSolution();
-        System.out.println(Arrays.toString(outputArray));
+//        NextPermutation nextPermutation=new NextPermutation();
+//        int[] outputArray=nextPermutation.optimalSoultion();
+//        System.out.println(Arrays.toString(outputArray));
+
+    //KADANE's ALGORITHM
+//        KadaneAlgorithm kadaneAlgorithm=new KadaneAlgorithm();
+//        System.out.println(kadaneAlgorithm.bruteSolution());
+//        System.out.println(kadaneAlgorithm.optimalSolution());
+
+
+    //Sort
+        SortZerosOnesTwos obj= new SortZerosOnesTwos();
+        System.out.println(Arrays.toString(obj.optimalForceSolution()));
     }
 }

@@ -63,7 +63,7 @@ public class NextPermutation {
         return outputArray;
     }
     //There is only optimal solution for this
-    public int[] optimalSolution(){
-
-    }
+//    public int[] optimalSolution(){
+//
+//    }
 }
